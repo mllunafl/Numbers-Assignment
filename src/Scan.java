@@ -68,6 +68,14 @@ public class Scan {
                         op1 = op1 / op2;
                         op2 = null;
                         System.out.println(op1);
+                    } else  if (tmp.equals("min")){
+                        op1 = Math.min(op1, op2);
+                        op2 = null;
+                        System.out.println(op1);
+                    } else  if (tmp.equals("max")){
+                        op1 = Math.max(op1, op2);
+                        op2 = null;
+                        System.out.println(op1);
                     } else {
                         System.out.println("try again");
                     }
