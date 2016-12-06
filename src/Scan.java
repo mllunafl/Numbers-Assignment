@@ -60,6 +60,14 @@ public class Scan {
                         op2 = null;
                         System.out.println(op1);
 //                        System.out.println("after - op2 " + op2);
+                    } else  if (tmp.equals("*")){
+                        op1 = op1 * op2;
+                        op2 = null;
+                        System.out.println(op1);
+                    }else  if (tmp.equals("/")){
+                        op1 = op1 / op2;
+                        op2 = null;
+                        System.out.println(op1);
                     } else {
                         System.out.println("try again");
                     }
